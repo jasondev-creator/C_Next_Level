@@ -1,3 +1,20 @@
+/*
+   Electricity Bill Calculator
+
+   Takes the number of electricity units consumed
+   and calculates the bill according to the unit range.
+
+   1 - 100 units  = Rs 2 per unit
+   101 - 200 units = Rs 3 per unit
+   Above 200 units = Rs 5 per unit
+
+   Concepts Used:
+   - float variables
+   - scanf()
+   - if / else if / else
+   - Logical AND (&&)
+   - Comparison operators
+*/
 #include <stdio.h>
 int main () {
 float units_consumed,rate;

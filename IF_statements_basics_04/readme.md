@@ -48,6 +48,36 @@ The program uses the leap-year rules involving divisibility by:
 - Logical AND (`&&`)
 - Logical OR (`||`)
 - `if / else`
+- ---
+
+### 4. Electricity Bill Calculator
+
+Takes the number of electricity units consumed
+and calculates the electricity bill based on the
+number of units.
+
+- 1 - 100 units = Rs 2 per unit
+- 101 - 200 units = Rs 3 per unit
+- Above 200 units = Rs 5 per unit
+
+**Concepts Used:**
+- `float`
+- `scanf()`
+- `if / else if / else`
+- Comparison operators
+- Logical AND (`&&`)
+- Arithmetic operators
+- Formatted output (`%.2f`)
+
+---
+
+### 5. What I Practiced
+
+- Working with range-based conditions
+- Calculating values using multiplication
+- Using `&&` to combine conditions
+- Using `float` for decimal calculations
+- Building a practical billing program
 
 ## What I Practiced
 
