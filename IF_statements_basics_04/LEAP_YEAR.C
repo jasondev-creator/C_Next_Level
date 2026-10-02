@@ -1,3 +1,20 @@
+/*
+   Leap Year Checker
+
+   Checks whether a given year is a leap year
+   using divisibility rules.
+
+   A leap year is divisible by 4,
+   but century years must also be divisible by 400.
+
+   Concepts Used:
+   - int variables
+   - Modulus operator (%)
+   - Comparison operators
+   - Logical OR (||)
+   - Logical AND (&&)
+   - if / else
+*/
 #include <stdio.h>
 int main () {
 int leap_year;
