@@ -1,3 +1,13 @@
+/*
+   char = Character data type
+   Used to store a single character.
+   
+   Examples:
+   'A' = uppercase
+   'a' = lowercase
+   '5' = number
+   '@' = special character
+*/
 #include <stdio.h>
 int main () {
 char names;
