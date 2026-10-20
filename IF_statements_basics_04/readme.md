@@ -1,6 +1,18 @@
 04 - Decision Making
 
-This folder contains C programs that practice decision-making and conditional logic using "if", "else if", "else", "switch", comparison operators, logical operators, and the modulus operator.
+---
+
+Concepts
+
+- "if" → checks a condition
+- "else if" → checks another condition
+- "else" → runs when previous conditions are false
+- "switch" → selects a case based on a value
+- "&&" → logical AND
+- "||" → logical OR
+- "%" → modulus, gives the remainder
+
+---
 
 Programs
 
@@ -21,13 +33,15 @@ Concepts Used:
 - "if / else if / else"
 - Logical operators
 
+---
+
 2. Triangle Type
 
-Takes three side lengths and determines whether the triangle is:
+Determines the type of triangle based on three side lengths.
 
-- Equilateral
-- Isosceles
-- Scalene
+- Equilateral → all sides are equal
+- Isosceles → two sides are equal
+- Scalene → all sides are different
 
 Concepts Used:
 
@@ -36,9 +50,18 @@ Concepts Used:
 - Logical OR ("||")
 - "if / else if / else"
 
+---
+
 3. Leap Year Checker
 
-Checks whether a given year is a leap year using divisibility rules involving 400, 4, and 100.
+Checks whether a given year is a leap year.
+
+Rules Used:
+
+- Divisible by 400 → leap year
+- Divisible by 100 → not a leap year
+- Divisible by 4 → leap year
+- Otherwise → not a leap year
 
 Concepts Used:
 
@@ -48,13 +71,17 @@ Concepts Used:
 - Logical OR ("||")
 - "if / else"
 
+---
+
 4. Electricity Bill Calculator
 
-Takes the number of electricity units consumed and calculates the bill based on the following rates:
+Calculates the electricity bill based on the number of units consumed.
 
-- 1–100 units = Rs 2 per unit
-- 101–200 units = Rs 3 per unit
-- Above 200 units = Rs 5 per unit
+Rates Used:
+
+- 1–100 units → Rs 2 per unit
+- 101–200 units → Rs 3 per unit
+- Above 200 units → Rs 5 per unit
 
 Concepts Used:
 
@@ -64,45 +91,61 @@ Concepts Used:
 - Comparison operators
 - Logical AND ("&&")
 - Arithmetic operators
-- Formatted output ("%.2f")
+- "%.2f" → displays two decimal places
+
+---
 
 5. Simple Calculator Using Switch
 
-Performs basic arithmetic operations on two numbers based on the operator entered by the user.
+Performs basic arithmetic operations on two numbers.
 
-Operations supported:
+Operations Supported:
 
-- "+" Addition
-- "-" Subtraction
-- "*" Multiplication
-- "/" Division
+- "+" → Addition
+- "-" → Subtraction
+- "*" → Multiplication
+- "/" → Division
 
-The program also checks for division by zero and handles invalid operators using the "default" case.
+Also checks for division by zero and handles invalid operators.
 
 Concepts Used:
 
-- "switch" statement
-- "case", "break", and "default"
-- "float" and "char" variables
+- "switch"
+- "case"
+- "break"
+- "default"
+- "float" and "char"
 - "scanf()" and "printf()"
 - Arithmetic operators
 - "if / else"
-- Input validation
+
+---
 
 What I Practiced
 
 - Building conditions logically
 - Working with range-based conditions
-- Combining multiple conditions using logical operators
-- Using comparison operators
-- Understanding "%" for checking divisibility
-- Using "switch" for multiple choices
+- Comparing values using relational operators
+- Combining conditions using "&&" and "||"
+- Using "%" to check divisibility
+- Making decisions using "if-else"
+- Selecting options using "switch"
 - Understanding "case", "break", and "default"
-- Performing calculations using arithmetic operators
-- Using "float" for decimal calculations
+- Performing arithmetic calculations
+- Using "float" for decimal values
 - Handling invalid inputs and edge cases
 - Testing programs with different inputs
 
+---
+
+Key Learning
+
+Decision-making statements help a program choose what to do based on conditions or user input.
+
+Using "if-else" and "switch" makes programs more logical, interactive, and useful for solving real-world problems.
+
+---
+
 Goal
 
-The main goal of these programs is to improve problem-solving and logical thinking in C by understanding how decision-making statements work, rather than simply memorizing code.
+The main goal of these programs is to improve problem-solving and logical thinking in C by understanding decision-making statements instead of simply memorizing code.

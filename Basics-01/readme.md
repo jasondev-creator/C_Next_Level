@@ -1,56 +1,43 @@
-01 - Basic Input and Output in C
+Basic Input and Output in C
 
-This folder contains basic C programs that demonstrate how to display messages and take user input using "printf()" and "scanf()".
+---
+
+Concepts
+
+- "printf()" → displays output
+- "scanf()" → takes user input
+- "int" → stores whole numbers
+- "main()" → starting point of the program
+- "&" → gives the address of a variable
+
+---
+
+Format Specifiers
+
+- "%d" → integer
+- "%f" → float
+- "%c" → character
+- "%s" → string
+
+---
 
 Programs
 
-1. Basic Input Using scanf()
+1. Basic Input
 
-This program displays "Hi:" and accepts an integer input from the user.
-
-Code Concepts:
-
-- "#include <stdio.h>"
-- "int main()"
-- Integer variable ("int")
-- "printf()" for displaying a message
-- "scanf()" for taking user input
-- "%d" format specifier
-- Address operator ("&")
-- "return 0"
-
-Example Output:
-
-Hi:10
+- Displays "Hi:"
+- Takes an integer using "scanf()"
 
 2. Number Input and Output
 
-This program takes an integer from the user and displays the entered number.
+- Takes a number from the user
+- Displays the entered number using "printf()"
 
-Example Output:
+---
 
-Enter a number: 25
-You entered: 25
+Key Learning
 
-Code Concepts:
+"printf()" is used to display information, while "scanf()" is used to receive input from the user.
 
-- Integer variable declaration
-- "printf()" for displaying messages and values
-- "scanf()" for reading user input
-- "%d" format specifier
-- Address operator ("&")
-- "\n" for moving to a new line
+These functions are the foundation of input and output in C.
 
-What I Practiced
-
-- Displaying messages using "printf()"
-- Taking integer input using "scanf()"
-- Declaring and using variables
-- Understanding format specifiers
-- Using the address operator ("&")
-- Displaying stored values
-- Understanding the basic structure of a C program
-
-Goal
-
-The main goal of these programs is to understand the fundamentals of input and output in C and build a strong foundation for writing more advanced programs.
