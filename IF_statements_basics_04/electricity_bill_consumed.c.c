@@ -4,9 +4,9 @@
    Takes the number of electricity units consumed
    and calculates the bill according to the unit range.
 
-   1 - 100 units  = Rs 2 per unit
-   101 - 200 units = Rs 3 per unit
-   Above 200 units = Rs 5 per unit
+   1 - 100 units  = Rs ₹2per unit
+   101 - 200 units = Rs ₹3 per unit
+   Above 200 units = Rs ₹5 per unit
 
    Concepts Used:
    - float variables
@@ -22,18 +22,21 @@ printf("Enter the number of electricity consumed:");
 scanf("%f",&units_consumed);
 if(units_consumed >0 && units_consumed <= 100)
 {
+// Rate per Unit 2 according to the condition is Rs ₹2
 rate = (2 * units_consumed);
 printf("%.2f\n",rate);
 printf("RS 2 per unit");
 }
 else if(units_consumed >= 101 && units_consumed <= 200)
 {
+//Rate Per Unit according to the condition is Rs ₹3
 rate = (3 * units_consumed);
 printf("%.2f\n",rate);
 printf("RS 3 per unit");
 }
 else
 {
+// Rate Per Unit according to the condition is Rs ₹5 
 rate = (5 * units_consumed);
 printf("%.2f\n",rate);
 printf("RS 5 per unit");
